@@ -1,0 +1,57 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="main-wrapper">
+  <div class="main-greeting">
+      Добро пожаловать, {{ name }}!
+  </div>
+  <div class="main-menu">
+      <div class="main-block-horoscope>">
+          <div class="main-block-horoscope-title">
+              Узнайте свой гороскоп на ближайшее время!
+          </div>
+          <form form action="" method="post" class="main-form-horoscope">
+              {% csrf_token %}
+              <select name="select-horoscope">
+                  <option value="aries" selected>Овен</option>
+                  <option value="taurus">Телец</option>
+                  <option value="gemini">Близнецы</option>
+                  <option value="cancer">Рак</option>
+                  <option value="leo">Лев</option>
+                  <option value="virgo">Дева</option>
+                  <option value="libra">Весы</option>
+                  <option value="scorpio">Скорпион</option>
+                  <option value="sagittarius">Стрелец</option>
+                  <option value="capricorn">Козерог</option>
+                  <option value="aquarius">Водолей</option>
+                  <option value="pisces">Рыбы</option>
+            </select>
+              <button type="submit">Далее</button>
+          </form>
+      </div>
+      <div class="main-block-color">
+          <div class="main-block-color-title">
+              Выберите понравившийся цвет:
+          </div>
+          <form form action="" method="post" class="main-form-color">
+              {% csrf_token %}
+              <select name="select-color">
+                  <option value="pink-bouquet" selected>Розовый</option>
+                  <option value="violet-bouquet">Фиолетовый</option>
+                  <option value="blue-bouquet">Голубой</option>
+              </select>
+              <button type="submit">Далее</button>
+          </form>
+      </div>
+      <div class="main-block-dog">
+          <div class="main-block-dog-title">
+              Просто посмотрите на собачку
+          </div>
+          <a href="/dog">Посмотреть собачку</a>
+      </div>
+      <div class="main-block-log-out">
+          <a href="..">Вернуться на страничку входа</a>
+      </div>
+  </div>
+</div>
+{% endblock %}

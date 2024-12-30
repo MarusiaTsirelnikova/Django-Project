@@ -1,0 +1,175 @@
+.entry-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4E180C;
+    background-image: url('/static/src/entry_back.png');
+    background-size: cover;
+    font-size: 48px;
+    font-family: sans-serif;
+}
+
+.entry-title{
+    margin-top: 130px;
+    margin-bottom: 105px;
+}
+
+.entry-form {
+    font-size: 24px;
+}
+
+input[type=submit] {
+    background: #8F4412;
+    color: white;
+    padding: 2px 25px;
+}
+
+.main-wrapper {
+    height: 100vh;
+    color: white;
+    padding-left: 50px;
+    background-image: url("/static/src/main_back.png");
+    background-size: cover;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.main-greeting {
+    padding-top: 77px;
+}
+
+.main-wrapper a {
+    background-color: #00436D;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 5px 10px;
+}
+
+.main-block-log-out{
+    margin-top: 45px;
+    text-decoration: underline;
+}
+
+.main-wrapper button {
+    color: white;
+    background-color: #00436D;
+}
+
+.main-menu {
+    font-size: 36px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 445px;
+}
+
+.main-form-horoscope {
+    font-size: 24px;
+}
+
+.main-form-color {
+    font-size: 24px;
+}
+
+.main-block-dog a {
+    font-size: 24px;
+}
+
+.horoscope-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url('/static/src/horoscopes_back.png');
+    background-size: cover;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.horoscope-title {
+    padding-top: 100px;
+}
+
+.horoscope-prediction {
+    padding-top: 50px;
+    text-align: center;
+    width: 650px;
+    font-size: 36px;
+}
+
+.horoscope-home {
+    padding-top: 250px;
+}
+
+.horoscope-home a {
+    color: white;
+    font-size: 48px;
+}
+
+.flowers-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #79A93B;
+    background-image: url('/static/src/flowers_back.png');
+    background-size: cover;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.flowers-title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.flowers-image img{
+    object-fit: contain;
+    width: 600px;
+    height: 400px;
+}
+
+.flowers-home {
+    padding-top: 50px;
+}
+
+.flowers-home a{
+    color: #61872E;
+    font-size: 48px;
+}
+
+.dog-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F22D44;
+    background-image: url('/static/src/dog_back.png');
+    background-size: cover;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.dog-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.dog-subtitle {
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+.dog-home a{
+    padding-top: 50px;
+}
+
+.dog-home a{
+    color: #D92439;
+    font-size: 48px;
+}

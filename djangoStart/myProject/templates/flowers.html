@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="flowers-wrapper">
+  <div class="flowers-title">
+    Ваш букетик
+  </div>
+  <div class="flowers-image">
+    <img src="{{ image }}">
+  </div>
+    <div class="flowers-home">
+        <a href="../main/{{ name }}">Вернуться на Главную</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="dog-wrapper">
+  <div class="dog-title">
+    Фото собачки
+      <div class="dog-subtitle">
+        Просто фотография моей собачки. Её зовут Плюша
+      </div>
+  </div>
+  <div class="dog-image">
+    <img src="/static/src/plusha_the_dog.png">
+  </div>
+    <div class="dog-home">
+        <a href="main/{{ name }}">Вернуться на Главную</a>
+    </div>
+</div>
+{% endblock %}

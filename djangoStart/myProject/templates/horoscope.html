@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="horoscope-wrapper">
+  <div class="horoscope-title">
+    {{ sign }}
+  </div>
+  <div class="horoscope-prediction">
+    {{ prediction }}
+  </div>
+  <div class="horoscope-home">
+        <a href="../main/{{ name }}">Вернуться на Главную</a>
+    </div>
+</div>
+{% endblock %}
